@@ -1,7 +1,6 @@
 <script setup lang="ts">
 import {RouterView} from 'vue-router';
 import {Notifications} from "@kyvg/vue3-notification";
-import IconLogo from "@/components/icons/IconLogo.vue";
 
 import IconFacebook from "@/components/icons/IconFacebook.vue";
 import IconInstagram from "@/components/icons/IconInstagram.vue";
@@ -10,10 +9,10 @@ import {useHead} from "@vueuse/head";
 import IconWhatsApp from "@/components/icons/IconWhatsApp.vue";
 
 const socials = [
-  {title: 'WhatsApp', icon: IconWhatsApp, url: 'https://api.whatsapp.com/send?phone=2349168938000'},
-  {title: 'Instagram', icon: IconInstagram, url: 'https://www.instagram.com/realtorscontinent'},
-  {title: 'Facebook', icon: IconFacebook, url: 'https://www.facebook.com/profile.php?id=100095249322197'},
-  {title: 'X', icon: IconX, url: 'https://x.com/realtorscont'},
+  {title: 'WhatsApp', icon: IconWhatsApp, url: '#'},
+  {title: 'Instagram', icon: IconInstagram, url: '#'},
+  {title: 'Facebook', icon: IconFacebook, url: '#'},
+  {title: 'X', icon: IconX, url: '#'},
 ];
 
 useHead({
@@ -43,10 +42,7 @@ useHead({
         <div class="flex items-center justify-center md:justify-between">
           <RouterLink to="/">
             <div class="flex items-end">
-              <div>
-                <IconLogo class="w-16 h-16"></IconLogo>
-              </div>
-              <div class="font-semibold text-[#002C80] leading-snug py-1">REALTORS <br/>CONTINENT</div>
+              <div class="font-semibold text-[#002C80] leading-snug py-1">AMAZING <br/>WEBSITE</div>
             </div>
           </RouterLink>
           <div class="gap-x-5 justify-center hidden md:flex">
@@ -72,8 +68,8 @@ useHead({
             </a>
           </div>
         </div>
-        <div>&copy; Realtors Continent. Designed by:
-          <a class="underline" href="https://worklabs.com.ng" target="_blank">Worklabs Nigeria</a>.
+        <div>&copy; Amazing Website. Designed by:
+          <a class="underline" href="https://zebitech.com" target="_blank">Zebitech Global Services Ltd</a>.
         </div>
       </footer>
     </div>
