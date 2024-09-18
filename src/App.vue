@@ -16,19 +16,19 @@ const socials = [
 ];
 
 useHead({
-  title: 'Realtors Continent - Empowering Sales Partners to Achieve More in Real Estate.',
+  title: 'Amazing  Website - Powered by Zebitech Global Services Ltd',
   meta: [
     {
       name: 'description',
-      content: 'Realtors Continent empowers real estate professionals with the tools, resources, and support they need to excel. From lead generation to closing deals, we create a dynamic environment for smart, persistent sales partners to thrive.'
+      content: 'Zebitech is a leading website development company.'
     },
     {
       name: 'keywords',
-      content: 'real estate, real estate professionals, sales partners, lead generation, real estate tools, real estate support, real estate resources, property sales, real estate success',
+      content: 'website, webapp, design, global, general',
     },
     {
       name: 'og:title',
-      content: 'Realtors Continent - Empowering Sales Partners to Achieve More in Real Estate.',
+      content: 'Amazing  Website - Powered by Zebitech Global Services Ltd',
     }
   ]
 })
